@@ -24,5 +24,18 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "data",
+      "urls": [
+        "/assets/data.json"
+      ],
+      "cacheConfig": {
+        "maxSize": 1,
+        "maxAge": "1h",
+        "strategy": "freshness"
+      }
+    }
   ]
 }
